@@ -1,0 +1,153 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background: rgba(19, 18, 18, 0.993);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  height: 45px;
+  line-height: 1px;
+}
+
+nav .navbar {
+  padding: 0.8rem 0 0.2rem;
+  text-align: center;
+}
+
+.navbar .nav-links {
+  display: inline-flex;
+
+}
+
+.nav-links li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 10px;
+  text-transform: uppercase;
+}
+
+.nav-links li a:hover {
+  color: rgb(228, 228, 16);
+}
+
+.mega-box {
+  position: absolute;
+  top: 45px;
+  padding: auto;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.nav-links li:hover .mega-box {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease;
+}
+
+.mega-box .content {
+  background: rgb(205, 224, 224);
+  padding: 25px 20px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.content .row {
+  width: calc(25% - 30px);
+  line-height: 30px;
+}
+
+.row .mega-links li {
+  padding: 0 20px;
+}
+
+.row .mega-links li a {
+  padding: 0 2px;
+  display: block;
+  color: black;
+}
+
+
+.style {
+  margin: 200px;
+  font-size: larger;
+  margin-top: 100px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: rgb(54, 218, 13);
+  border: none;
+  border-radius: 4px;
+}
+
+.btn {
+  margin: 20px;
+  color: rgb(54, 218, 13);
+  background-color: rgb(205, 224, 224);
+}
+
+.fa-wechat {
+  color: orange;
+}
+
+.fa-mortar-board {
+  margin-left: 10px;
+  color: rgb(187, 100, 100);
+}
+
+.fa-lightbulb-o {
+  margin-left: 10px;
+  color: violet;
+}
+
+.icon i {
+  position: absolute;
+}
+
+.fa-search {
+  padding: 100px;
+  color: gray;
+  min-width: 650px;
+  text-align: center;
+  padding-top: 107px;
+
+}
+
+.input-field {
+  width: 500px;
+  height: 30px;
+  margin-left: 30%;
+  align-items: center;
+  margin-top: 100px;
+  border: none;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.bttn {
+  margin-left: 200px;
+}
+
+img {
+  float: right;
+  margin-top: -40%;
+}
